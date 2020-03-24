@@ -16,12 +16,12 @@ public class U05E03 {
     }
     static boolean esPar (int a){
         boolean x;
-        int par=(a%2);
-        if (par==0){
-            x=true;
-        }else{
-            x=false;
-        }
+ 
+            if (a%2==0){
+                x=true;
+            }else{
+                x=false;
+            }
         return(x);
     }
 }
